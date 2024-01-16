@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(2, 2, 86);
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 15px;
+}
+header h1 {
+  color: white;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+section {
+  padding: 20px 200px;
+}
+section .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+section .row .image img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .row .title h2 {
+  margin: 0;
+  font-size: 20px;
+  padding: 10px;
+  min-width: 200px;
+}
+section .row .link {
+  width: 200px;
+}
+section .row .link a {
+  background-color: rgb(2, 2, 86);
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
